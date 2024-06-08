@@ -1,0 +1,99 @@
+/* @media screen {
+
+*{
+        margin: 0px;
+        padding: 0xp;
+}
+
+body{
+        margin: 0px;
+        padding: 0px;
+}
+
+.cotaner {
+    max-height: 553px;
+    max-width: 768px;
+
+}    
+    
+.logo {
+    font-size: 20px;
+}
+
+.nav {
+    max-width:350px;
+    max-height: 40px;
+    margin: 0px;
+    padding: 2px;
+    position: relative;
+    left: -100px;
+}
+
+.nav a {
+    font-size: 19px;
+    padding: 2px 2px;
+
+}
+
+.search { font-size: 20px; }
+
+.search { font-size: 20px; }
+
+.right {
+    max-width: 340px;
+    max-height: 340px;
+    margin-right: 80px;
+    margin-top: 26px;
+}
+
+.right {
+    max-width: 240px;
+    max-height: 240px;
+    margin-bottom: 160px;
+    margin-right: 16px;
+}
+
+.right::before {
+    max-width: 230px;
+    max-height: 230px;
+    padding: 10px;
+}
+
+.social {
+    max-width: 30px;
+    max-height: 150px;
+    font-size: 20px;
+    position: absolute;
+    top: 135px;
+}
+
+.right::before {
+    max-width: 240px;
+    max-height: 240px;
+
+}    
+.left p:nth-child(1) {
+    font-size: 24px;
+}    
+
+.left h1 {
+    font-size: 50px;
+}
+
+.left p:nth-child(3) {
+    font-size: 24px;
+}
+
+.left button {
+    max-width: 120px;
+    max-height: 30px;
+    font-size: 13px;
+}
+
+.computer1,.computer2 {
+    max-width: 75px;
+    max-height: 75px;
+    margin-top: -110px;
+}    
+
+} */

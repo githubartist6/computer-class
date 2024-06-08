@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img2.jpeg);
+    justify-content: center;
+    background-size: cover;
+}
+
+.men{
+    height: 400px;
+    width: 300px;
+    /* display: flex; */
+    background-image: url(img2.jpeg);
+    justify-content: center;
+    background-size: cover;
+    float: left;
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px black;
+    animation: colormen 4s infinite alternate; /* Alternate between two colors every 5 seconds */
+}
+
+@keyframes colormen  {
+    0% {
+      box-shadow: 0px 0px 25px #f00; /* Start color */
+    }
+    50% {
+      box-shadow: 0px 0px 25px #00f; /* Middle color */
+    }
+    100% {
+      box-shadow: 0px 0px 25px #0f0; /* End color */
+    }
+  }
+
+
+.heding {
+    height: 50px;
+    width: 300px;
+    color: white;
+}
+
+.inp {
+    height: 30px;
+    width: 250px;
+    margin-top: 5px;
+    padding-left: 8px;
+    position: relative;
+    left: 25px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px white;
+    border-bottom: 2px solid black;
+    color: orange;
+    font-size: 17px;
+    border-radius: 8px;
+    /*animation: colormen 4s infinite alternate;*/     /* Alternate between two colors every 5 seconds */
+}
+
+/* @keyframes colorinp  {
+    0% {
+      box-shadow: 0px 0px 1px #f00;  Start color
+    }
+    50% {
+      box-shadow: 0px 0px 1px #00f;  Middle color  
+    }
+    100% {
+      box-shadow: 0px 0px 1px #0f0;  End color 
+    }
+  } */
+
+::placeholder{ color: rgb(175, 175, 175); }
+
+.gandermen {
+    height: 22px;
+    width: 20px;
+    font-size: 22px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+
+.submit {
+    height: 40px;
+    width: 250px;
+    border: none;
+    outline: none;
+    position: relative;
+    left: 25px;
+    top: 30px;
+    font-size: 24px;
+    border-radius: 50px;
+    background-color: orange;
+    color: white;
+}
+
+
+
+

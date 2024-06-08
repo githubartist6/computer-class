@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.contaner{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img2.jpeg);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.logo {
+    font-size: 30px;
+    color: orange;
+}
+
+.nav {
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(128, 128, 128, 0.589);
+    border-radius: 50px;
+    position: relative;
+}
+
+.nav a {
+    padding: 0.2% 1%;
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: white;
+    text-decoration: underline;
+    text-underline-position: unset;
+}
+
+.search { font-size: 25px; }
+
+.search a { color: black; }
+
+.search i { margin-left: 10px; }
+
+.heding {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    align-items: center;
+}
+
+
+.rightbefor {
+    width: 440px;
+    height: 440px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20%;
+    right: 15%;
+}
+
+.right {
+    width: 99%;
+    height: 99%;
+    background-image: url(img1.jpeg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.left .p1 {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.dont-wait {
+    font-size: 70px;
+    color: white;
+}
+
+.left .p2 {
+    color: orange;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 5%;
+    border-radius: 2px;
+}
+
+.social {
+    position: absolute;
+    right: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 3%;
+    height: 28%;
+    background-color: white;
+    font-size: 25px;
+}
+
+.social a { color: black; }
+
+.social i:hover {
+    color: orange;
+}
+
+.class {
+    display: flex;
+    margin: 0% 7%;
+}
+
+.computer1,.computer2 {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    gap: 30%;
+    border-radius: 50%;
+    margin-top: -30%;
+}
+
+.computer2 { 
+    position: relative;
+    left: 20%;
+}
+
+.computer1 { background-image: url(class1.jpg); }
+
+.computer2 { background-image: url(sir.png); }
+
